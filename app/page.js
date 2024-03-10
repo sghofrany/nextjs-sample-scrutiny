@@ -1,9 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import SSRPage from "@/app/my_ssr";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+
+      <SSRPage />
+
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
